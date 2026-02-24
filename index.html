@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Killua Apprentissage ⚡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Killua Apprentissage ⚡</h1>
+    <p>Apprends à coder pas à pas avec des exercices interactifs !</p>
+  </header>
+
+  <main>
+    <h2>Choisis une leçon :</h2>
+    <ul>
+      <li><a href="#" onclick="loadLesson('lessons/html.html')">HTML de base</a></li>
+      <li><a href="#" onclick="loadLesson('lessons/css.html')">CSS de base</a></li>
+      <li><a href="#" onclick="loadLesson('lessons/js.html')">JavaScript de base</a></li>
+    </ul>
+
+    <div id="lessonContainer">
+      <p>La leçon s’affichera ici.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Killua Apprentissage</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
