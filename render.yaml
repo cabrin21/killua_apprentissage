@@ -1,0 +1,7 @@
+# render.yaml
+services:
+  - type: static
+    name: killua-apprentissage
+    env: static
+    buildCommand: ""
+    publishPath: /
